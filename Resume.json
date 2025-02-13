@@ -1,0 +1,90 @@
+{
+    "Header":{
+        "Name":"Nick Rezaie",
+        "Email":"myemail@provider.com",
+        "Linkedin":"https://www.linkedin.com/in/behradrezaie/",
+        "Github":"https://github.com/behradrez",
+        "Extras":[
+            "Small info like","US Citizen"
+        ]
+    },
+    "Education":{
+        "Institution":"McGill University",
+        "Location":"San Francisco, QC",
+        "Degree":"Bachelor of Computer Engineering, Minor in Ant Studies",
+        "DateRange": "2022-2026",
+        "Grade":"GPA: 4.0/4.0",
+        "RelevantCourses":"Relevant Courses: Intro to Python, Intro to Antology"
+
+    },
+    "TechnicalSkills":{
+        "Languages":"Java, Python, Javascript, Rust, C",
+        "Frameworks":"Spring, Next.js, Expo",
+        "DeveloperTools":"Git, Docker, AWS, Terraform"
+
+    },
+    "Experiences":[
+        {
+            "JobTitle":"Software Engineer Intern",
+            "Location":"Montreal, QC",
+            "Company":"Amazon",
+            "DateRange":"August 2030 -- December 2030",
+            "Bulletpoints": [
+                "Created AWS, boosting company value by 90000% and increasing revenues a million-fold",
+                "Automated the office's snack dispenser, ensuring a constant supply of snacks and happiness",
+                "Developed a virtual reality meeting room, reducing the need for physical office space and increasing remote collaboration",
+                "Drank 3 cups of coffee per day, reducing oversupply of coffee stock and eliminating waste"
+            ]
+        },
+        {
+            "JobTitle":"Junior Developer",
+            "Location":"San Francisco, CA",
+            "Company":"Google",
+            "DateRange":"January 2031 -- June 2031",
+            "Bulletpoints": [
+                "Implemented a search algorithm that can predict the future, increasing search accuracy by 110%",
+                "Organized weekly team-building exercises involving competitive coding and pizza eating contests",
+                "Developed a chatbot that can hold philosophical conversations, reducing employee boredom by 50%",
+                "Optimized the office coffee machine to brew the perfect cup, boosting productivity by 20%"
+            ]
+        }
+    ],
+    "Leadership":[
+        {
+            "Position":"Teaching Assistant",
+            "Location":"Montreal, QC",
+            "Company":"Harvard University Montreal Satellite Campus",
+            "DateRange":"2020 -- 2030",
+            "Bulletpoints": [
+                "Taught Masters level courses alongside professors",
+                "Designed course material to increase difficulty unnecessarily, leading students to think they were getting good education"
+            ]
+        }
+    ],
+    "Projects":[
+        {
+            "Name":"World Hunger Solver",
+            "TechnologiesUsed":"Rust, Javascript, HTML",
+            "Bulletpoints":[
+                "Solved world hunger in Rust",
+                "Created a user-friendly UI in pure Javascript and HTML"
+            ]
+        },
+        {
+            "Name":"Time Machine",
+            "TechnologiesUsed":"Python, Flask, React",
+            "Bulletpoints":[
+                "Developed a time machine using Python and Flask, allowing users to travel to any point in history",
+                "Built a sleek and intuitive front-end with React, ensuring a seamless time-travel experience"
+            ]
+        },
+        {
+            "Name":"AI Personal Assistant",
+            "TechnologiesUsed":"Java, Spring Boot, Angular",
+            "Bulletpoints":[
+                "Created an AI personal assistant that can predict your needs before you even know them",
+                "Integrated with various APIs to provide real-time information and assistance"
+            ]
+        }
+    ]
+}
