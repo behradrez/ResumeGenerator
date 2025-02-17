@@ -34,6 +34,11 @@ public class ResumeController {
     private ResumeService resumeService;
 
 
+    @GetMapping("/")
+    public ResponseEntity<?> healthCheck(){
+        return new ResponseEntity<>(HttpStatus.OK);
+    }
+
     @GetMapping("/user/{username}/resumes")
     public ResponseEntity<?> findResumesByUsername(@PathVariable String username) throws Exception{
         List<ResumeObject> resumes;

@@ -21,13 +21,32 @@ public class UserAccount {
     private Date creationDate;
 
     private String username;
-    
+    private String hashedPass;
+    private byte[] salt;
 
     public UserAccount(){}
 
     public UserAccount(String username){
         this.username = username;
     }
+
+
+
+    public void setHashedPass(String hashedPass){
+        this.hashedPass = hashedPass;
+    }
+
+    public String getHashedPass(){
+        return hashedPass;
+    }
+ 
+    public void setSalt(byte[] newSalt){
+        salt = newSalt;
+    }
+    public byte[] getSalt(){
+        return salt;
+    }
+
 
     @PrePersist
     protected void onCreate(){
