@@ -4,8 +4,8 @@ import { ResumeSectionDTO } from './interfaces/interfaces';
 @Injectable({
   providedIn: 'root'
 })
-export class ResumeServiceService {
-  url = "localhost:8080/";
+export class ResumeService {
+  url = process.env['BACKEND_URL'] ?? "http://localhost:8080/"; 
 
   async getAllResumesByUser(username:String){
     const req = await fetch(this.url+username+"resumes");

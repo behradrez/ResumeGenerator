@@ -1,6 +1,6 @@
 import { Component, inject, SimpleChanges } from '@angular/core';
 import { ResumeSectionDTO } from '../interfaces/interfaces';
-import { ResumeServiceService } from '../resume-service.service';
+import { ResumeService } from '../resume.service';
 import { Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {MatTabChangeEvent, MatTabsModule} from '@angular/material/tabs';
@@ -92,7 +92,7 @@ import { MatIconModule } from '@angular/material/icon';
 export class GenerateResumeComponent {
   resumes: ResumeSectionDTO[] = [];
   @Input() username = '';
-  resumeService = inject(ResumeServiceService);
+  resumeService = inject(ResumeService);
 
   selectedResumeId = -1;
 

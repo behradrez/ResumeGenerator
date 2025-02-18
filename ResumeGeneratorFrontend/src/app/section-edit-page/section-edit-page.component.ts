@@ -1,7 +1,7 @@
 import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule, FormBuilder, FormArray, Validators, FormGroup } from '@angular/forms';
-import { ResumeServiceService } from '../resume-service.service';
+import { ResumeService } from '../resume.service';
 import {MatInputModule} from "@angular/material/input";
 import { MatFormFieldModule } from '@angular/material/form-field';
 import {MatButtonToggleChange, MatButtonToggleModule} from "@angular/material/button-toggle";
@@ -60,7 +60,7 @@ import { GenerateResumeComponent } from '../generate-resume/generate-resume.comp
 })
 export class SectionEditPageComponent {
   fb: FormBuilder = new FormBuilder();
-  resumeService = inject(ResumeServiceService);
+  resumeService = inject(ResumeService);
   currForm: FormGroup = new FormGroup('');
 
   constructor() {}
